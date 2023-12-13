@@ -1,11 +1,34 @@
 body {
-
+    font-family: consolas;
+    text-align: center;
 }
 
 .mealsList {
-
+    margin: auto;
+    width: 50%;
 }
 
 .mealContainer {
+    border: 2px solid grey;
+    margin: 5%;
+    padding-bottom: 5%;
+    border-style: inset;
+}
 
+.mealContainer img{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.75em;
 }
