@@ -54,7 +54,7 @@ function getFetch() {
           // ex: "Broccoli & Stilton soup", followed by a picture of
           // broccoli & stilton soup
         // ... add code here
-        let header = document.createElement("h2"); // create header for container
+        let header = document.createElement("h3"); // create header for container
         header.innerText = data.meals[i].strMeal; // label container with meal name
         container.appendChild(header); // append header to container
 
